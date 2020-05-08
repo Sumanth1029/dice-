@@ -58,7 +58,7 @@ class _DiceState extends State<Dice> {
                   setState(() {
                     left_dno=Random().nextInt(6)+1;
                     right_dno=Random().nextInt(6)+1;
-
+//
                   });
                 },
                 child: Image.asset(
